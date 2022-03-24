@@ -1,3 +1,6 @@
+
+![ElectronJS + Typescript + ReactJS](https://user-images.githubusercontent.com/46914545/159979537-7116a826-212c-45f4-a393-4abeabeabd07.jpg)
+
 ## Electron + TypeScript + React
 
 This boilerplate is using [diego3g/electron-typescript-react](https://github.com/diego3g/electron-typescript-react) as base.
