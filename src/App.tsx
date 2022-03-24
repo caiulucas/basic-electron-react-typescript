@@ -1,12 +1,24 @@
-import { GlobalStyle } from './styles/GlobalStyle'
+import React from 'react';
+import ElectronSVG from './electronjs-icon.svg'
+import './App.css';
 
-import { Greetings } from './components/Greetings'
-
-export function App() {
+export const App: React.FC = () => {
   return (
-    <>
-      <GlobalStyle />
-      <Greetings />
-    </>
-  )
+    <div className="App">
+      <header className="App-header">
+        <img src={ElectronSVG} className="App-logo" alt="logo" />
+        <p>
+          Electron, Typescript and React.
+        </p>      
+        <a
+          className="App-link"
+          href="https://github.com/caiulucas"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Made by caiulucas
+        </a>
+      </header>
+    </div>
+  );
 }
