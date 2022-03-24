@@ -20,8 +20,6 @@ Download this boilerplate using
 ```bash
 git clone https://github.com/caiulucas/basic-electron-react-typescript
 ```
-or clicking in `Use this as template` option.
-
 Add `node_modules` in your project
 
 Using npm: 
