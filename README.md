@@ -48,10 +48,12 @@ yarn start
 
 To generate the project package based on the OS you're running on, just run:
 
+Using npm:
 ```bash
 npm run package
 ```
 
+Using yarn:
 ```bash
 yarn package
 ```
